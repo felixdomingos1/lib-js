@@ -1,0 +1,14 @@
+{
+    "name": "newlib",
+    "version": "1.0.0",
+    "repository": "",
+    "author": "",
+    "license": "",
+   "scripts": {
+        "compile": "rimraf dist/lib && npx tsc -b tsconfig.es5.json"
+    },
+    "devDependencies": {
+        "rimraf": "^6.0.1",
+        "typescript": "^5.6.3"
+    }
+}
